@@ -62,11 +62,10 @@ Building the future of distributed computing? We'd love your help! Whether you'r
 
 **SyWil** - _Distributed Systems Engineer & Job Engine Architect_
 
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- 💼 LinkedIn: [Your Professional Face](https://linkedin.com/in/yourprofile)
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
-- ☕ Buy me coffee: [Because distributed systems run on caffeine](https://buymeacoffee.com/yourhandle)
+- 📧 Email: [sytanek@gmail.com](mailto:sytanek@gmail.com)
+- 🐦 Twitter(X): [@Sytanek](https://x.com/Sytanek)
+- 💼 LinkedIn: [Your Professional Face](https://www.linkedin.com/in/will-long-ii/)
+- ☕ Buy me coffee: [Because distributed systems run on caffeine](https://buymeacoffee.com/darkomenzz)
 
 ---
 
