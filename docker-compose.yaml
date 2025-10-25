@@ -1,0 +1,10 @@
+services:
+  dark_jobz_postgres:
+    image: postgres
+    container_name: dark_jobz_postgres
+    environment:
+      POSTGRES_USER: jobz_user
+      POSTGRES_PASSWORD: jobz_pass
+      POSTGRES_DB: jobz_db
+    ports:
+      - "5432:5432"
