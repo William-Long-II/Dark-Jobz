@@ -68,9 +68,10 @@
       }
     },
     "generate-types": {
-      "command": "prisma generate",
+      "executor": "nx:run-commands",
       "options": {
-        "cwd": "apps/jobz-auth/"
+        "cwd": "apps/jobz-auth/",
+        "command": "prisma generate"
       }
     },
     "migrate-prisma": {
