@@ -16,7 +16,8 @@
         "development": {
           "args": ["--node-env=development"]
         }
-      }
+      },
+      "dependsOn": ["generate-types"]
     },
     "prune-lockfile": {
       "dependsOn": ["build"],
@@ -64,6 +65,20 @@
     "test": {
       "options": {
         "passWithNoTests": true
+      }
+    },
+    "generate-types": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/jobz-auth/",
+        "command": "prisma generate"
+      }
+    },
+    "migrate-prisma": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/jobz-auth/",
+        "command": "prisma migrate dev --name {args.name}"
       }
     }
   }
